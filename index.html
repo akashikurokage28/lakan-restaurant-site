@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lakan — Modern Filipino Fine Dining in Iloilo City</title>
+<meta name="description" content="Charcoal-fired heritage recipes and a seven-course tasting in Iloilo City.">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top" id="top">
+  <nav aria-label="Primary"><a href="#story">Story</a><a href="#signature">Signatures</a><a href="#menu">Menu</a></nav>
+  <a class="mark" href="#top">LAKAN<small>Filipino Fine Dining</small></a>
+  <div class="r"><a href="#tasting">Tasting</a><a class="btn sm" href="#reserve"><i class="ri-calendar-event-line"></i>Reserve</a></div>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i class="ri-menu-line"></i></button>
+</header>
+<div class="drawer" id="drawer">
+  <a href="#story">Story</a><a href="#signature">Signatures</a><a href="#menu">Menu</a><a href="#tasting">Tasting</a><a href="#reserve">Reserve</a>
+</div>
+
+<main>
+  <section class="hero">
+    <div class="hero-in">
+      <p class="eyebrow" data-anim="up"><i class="ri-fire-line"></i>Charcoal-fired · Iloilo City</p>
+      <h1 data-anim="up" data-delay="120">A tasting of the <em class="gold">archipelago</em></h1>
+      <p class="sub" data-anim="up" data-delay="240">Heritage recipes from Panay and beyond, reimagined with patience, smoke and the island's finest produce.</p>
+      <div class="cta" data-anim="up" data-delay="360">
+        <a class="btn" href="#reserve">Reserve a table<i class="ri-arrow-right-up-line"></i></a>
+        <a class="btn ghost" href="#menu">Explore the menu</a>
+      </div>
+    </div>
+    <ul class="facts" data-anim="up" data-delay="480">
+      <li><i class="ri-time-line"></i>Tue – Sun · 5:30 pm to 10 pm</li>
+      <li><i class="ri-map-pin-2-line"></i>24 Rizal Street, Iloilo City</li>
+      <li><i class="ri-award-line"></i>Seven-course tasting</li>
+    </ul>
+  </section>
+
+  <section class="story" id="story">
+    <div class="wrap">
+      <div class="collage" data-anim="left">
+        <img class="a" src="images/kinilaw-na-tanigue.jpg" alt="Kinilaw of fresh tanigue" loading="lazy">
+        <img class="b" src="images/ensaladang-talong.jpg" alt="Charred eggplant salad" loading="lazy">
+      </div>
+      <div data-anim="right">
+        <p class="eyebrow"><i class="ri-quill-pen-line"></i>Our story</p>
+        <h2>Where smoke meets heritage.</h2>
+        <p class="lead">Lakan began with one idea: that the dishes of our grandmothers deserve a white tablecloth. Every plate starts over open charcoal and ends with something familiar, made precise.</p>
+        <ul class="feats">
+          <li data-anim="up" data-delay="0"><i class="ri-fire-line"></i><div><b>Open charcoal</b><span>Every grill dish is cooked over coconut-shell charcoal.</span></div></li>
+          <li data-anim="up" data-delay="120"><i class="ri-leaf-line"></i><div><b>Island produce</b><span>Fish, rice and vegetables from growers across Panay.</span></div></li>
+          <li data-anim="up" data-delay="240"><i class="ri-heart-3-line"></i><div><b>Made by hand</b><span>Stocks, sauces and vinegars are prepared in our kitchen daily.</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="signature" id="signature">
+    <div class="wrap">
+      <div class="sig-head" data-anim="up">
+        <p class="eyebrow"><i class="ri-restaurant-2-line"></i>Signature plates</p>
+        <h2>Three dishes we are known for</h2>
+      </div>
+      <article class="sig" data-anim="up">
+        <img src="images/kare-kare.jpg" alt="Kare-kare with oxtail and tripe" loading="lazy">
+        <div><span class="n">01</span><h3>Kare-kare</h3><p>Oxtail and tripe slow-cooked in a roasted peanut sauce, served with house bagoong alamang.</p><div class="meta"><span>₱560</span><span><i class="ri-time-line"></i> Cooked 6 hours</span></div></div>
+      </article>
+      <article class="sig" data-anim="up">
+        <img src="images/crispy-pata.jpg" alt="Golden crispy pork knuckle" loading="lazy">
+        <div><span class="n">02</span><h3>Crispy pata</h3><p>Pork knuckle braised until tender, then fried until the skin shatters. Built for sharing.</p><div class="meta"><span>₱690</span><span><i class="ri-group-line"></i> Serves 2 to 3</span></div></div>
+      </article>
+      <article class="sig" data-anim="up">
+        <img src="images/inihaw-na-pusit.jpg" alt="Sliced grilled squid" loading="lazy">
+        <div><span class="n">03</span><h3>Inihaw na pusit</h3><p>Whole squid stuffed with tomato and onion, grilled over charcoal and finished with sinamak.</p><div class="meta"><span>₱480</span><span><i class="ri-fire-line"></i> Charcoal grill</span></div></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <div class="head" data-anim="up">
+        <p class="eyebrow"><i class="ri-book-open-line"></i>The menu</p>
+        <h2>À la carte</h2>
+      </div>
+      <div class="tabs" data-anim="up" data-delay="100" id="tabs" role="tablist" aria-label="Menu categories"></div>
+      <div class="items" id="items" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="tasting" id="tasting">
+    <div class="wrap">
+      <div data-anim="left">
+        <p class="eyebrow"><i class="ri-goblet-line"></i>Chef's tasting</p>
+        <h2>The seven-course <em class="gold">experience</em></h2>
+        <p class="lead">A guided evening through the islands, paced over about three hours. Menus change with the catch and the harvest.</p>
+        <p class="big">₱3,200 <small>per guest</small></p>
+        <p class="note"><i class="ri-drinks-2-line"></i> Sommelier pairing available for ₱1,800</p>
+        <a class="btn" href="#reserve">Book the tasting<i class="ri-arrow-right-up-line"></i></a>
+      </div>
+      <ol class="courses" data-anim="right" data-delay="120">
+        <li>Kinilaw na tanigue</li><li>Lumpiang ubod</li><li>Inihaw na pusit</li><li>Chicken inasal</li><li>Kare-kare</li><li>Biko with latik</li><li>Halo-halo ni Lola</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="reserve" id="reserve">
+    <div class="wrap">
+      <div data-anim="left">
+        <p class="eyebrow"><i class="ri-calendar-event-line"></i>Reservations</p>
+        <h2>Reserve your evening</h2>
+        <ul class="info">
+          <li><i class="ri-map-pin-2-line"></i>24 Rizal Street, Iloilo City</li>
+          <li><i class="ri-time-line"></i>Tue – Sun, 5:30 pm to 10 pm · Closed Mondays</li>
+          <li><i class="ri-phone-line"></i>0917 555 0142</li>
+          <li><i class="ri-mail-line"></i>hello@lakan.example</li>
+        </ul>
+      </div>
+      <div class="panel" data-anim="right" data-delay="120">
+        <form id="rform" novalidate>
+          <div class="row">
+            <label>Date<input type="date" id="date" required></label>
+            <label>Time<select id="time" required><option value="">Select</option><option>5:30 pm</option><option>6:30 pm</option><option>7:30 pm</option><option>8:30 pm</option></select></label>
+          </div>
+          <div class="row">
+            <label>Guests<select id="guests" required><option>2</option><option>1</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>
+            <label>Mobile<input type="tel" id="phone" placeholder="0917 555 0142" required></label>
+          </div>
+          <label>Full name<input type="text" id="name" autocomplete="name" required></label>
+          <p class="err" id="err" role="alert"></p>
+          <button class="btn full" type="submit">Request reservation</button>
+        </form>
+        <div class="ok" id="ok" hidden><i class="ri-checkbox-circle-line"></i><h3>Request received</h3><p id="okmsg"></p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="mark">LAKAN<small>Filipino Fine Dining</small></div>
+  <div class="social"><a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a><a href="#" aria-label="Facebook"><i class="ri-facebook-circle-line"></i></a><a href="#" aria-label="TikTok"><i class="ri-tiktok-line"></i></a></div>
+  <p>© 2026 Lakan · Demo website</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "name": "To start",
+      "items": [
+        {
+          "name": "Kinilaw na tanigue",
+          "price": 380,
+          "description": "Spanish mackerel cured in coconut vinegar, ginger, chili and calamansi.",
+          "image": "images/kinilaw-na-tanigue.jpg",
+          "alt": "Cubes of raw fish cured with chili and herbs"
+        },
+        {
+          "name": "Lumpiang ubod",
+          "price": 290,
+          "description": "Fresh palm heart rolls with garlic-peanut sauce.",
+          "image": "images/lumpiang-ubod.jpg",
+          "alt": "Fresh lumpia roll with sauce and crushed peanuts"
+        },
+        {
+          "name": "Ensaladang talong",
+          "price": 260,
+          "description": "Charred eggplant, salted egg, tomato and red onion.",
+          "image": "images/ensaladang-talong.jpg",
+          "alt": "Charred eggplant salad with tomato and red onion"
+        }
+      ]
+    },
+    {
+      "name": "From the charcoal",
+      "items": [
+        {
+          "name": "Chicken inasal",
+          "price": 420,
+          "description": "Lemongrass and annatto marinade, basted with achuete oil. Comes with garlic rice.",
+          "image": "images/chicken-inasal.jpg",
+          "alt": "Grilled chicken being basted on a banana leaf"
+        },
+        {
+          "name": "Inihaw na pusit",
+          "price": 480,
+          "description": "Whole grilled squid stuffed with tomato and onion, with sinamak.",
+          "image": "images/inihaw-na-pusit.jpg",
+          "alt": "Sliced grilled squid on a banana leaf"
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        {
+          "name": "Kadyos, baboy, kag langka",
+          "price": 440,
+          "description": "Pigeon peas and pork simmered in a sour broth with young jackfruit.",
+          "image": "images/kadyos-baboy-kag-langka.jpg",
+          "alt": "Bowl of kadyos and pork soup with a green chili"
+        },
+        {
+          "name": "Kare-kare",
+          "price": 560,
+          "description": "Oxtail and tripe in peanut sauce with bagoong alamang.",
+          "image": "images/kare-kare.jpg",
+          "alt": "Kare-kare stew with oxtail, tripe and string beans"
+        },
+        {
+          "name": "Crispy pata",
+          "price": 690,
+          "description": "Slow-braised pork knuckle, fried until the skin shatters.",
+          "image": "images/crispy-pata.jpg",
+          "alt": "Golden crispy pork knuckle on a plate"
+        }
+      ]
+    },
+    {
+      "name": "To finish",
+      "items": [
+        {
+          "name": "Biko with latik",
+          "price": 220,
+          "description": "Sticky rice cooked in coconut milk and brown sugar, topped with toasted coconut curds.",
+          "image": "images/biko-with-latik.jpg",
+          "alt": "Biko sticky rice cake topped with latik"
+        },
+        {
+          "name": "Halo-halo ni Lola",
+          "price": 240,
+          "description": "Shaved ice, leche flan, ube halaya, sweet beans and langka.",
+          "image": "images/halo-halo-ni-lola.jpg",
+          "alt": "Halo-halo with ube ice cream, leche flan and sweet beans"
+        }
+      ]
+    }
+  ]
+}
